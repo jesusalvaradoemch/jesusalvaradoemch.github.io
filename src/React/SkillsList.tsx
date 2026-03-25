@@ -48,7 +48,8 @@ const SkillsList = () => {
       "Simulaciones de dinámicas de 100 nanosegundos en 24 horas",
     ],
     "Q Cuántica y Mecanismos de Rxn": [
-      "Cálculos ab initio, semiempíricos y DFT usando ORCA 6.1.1",
+      "Química Bioinorgánica de hierro-sideróforos en proteínas receptoras externas en la membrana celular",
+      "Reactividad Química usando cálculos ab initio, semiempíricos y DFT usando ORCA 6.1.1, Gaussian, XTB, MOPAC.",
       "Búsqueda de estados de transición: Relaxed Surface Scan y Nudged Elastic Band",
       "Análisis de mecanismos de reacción y gráficas de perfil de reacción",
     ],

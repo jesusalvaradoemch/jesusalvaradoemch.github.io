@@ -38,7 +38,7 @@ const SkillsList = () => {
 
   const skills = {
     "Molecular Machine Learning": [
-      "Desarrollo de Modelos de ML para la Predicción de Props Moleculares",
+      "Desarrollo de Modelos de ML para la Predicción de Propiedades Moleculares",
       "Generación de Descriptores Moleculares para el Desarrollo de Fármacos",
       "Dashboards y Bases de Datos Moleculares, EDA e Ingeniería de Datos",
     ],
@@ -47,9 +47,9 @@ const SkillsList = () => {
       "Virtual Screening de cientos de miles de ligandos y cálculo de FEB",
       "Simulaciones de dinámicas de 100 nanosegundos en 24 horas",
     ],
-    "Mec. Cuántica y Mecanismos de Rxn": [
+    "Q Cuántica y Mecanismos de Rxn": [
       "Cálculos ab initio, semiempíricos y DFT usando ORCA 6.1.1",
-      "Búsqueda de estados de transición: RSS y NEB-TS",
+      "Búsqueda de estados de transición: Relaxed Surface Scan y Nudged Elastic Band",
       "Análisis de mecanismos de reacción y gráficas de perfil de reacción",
     ],
   };

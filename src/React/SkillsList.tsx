@@ -37,19 +37,20 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState<string | null>(null);
 
   const skills = {
-    "Web Development": [
-      "Single Page Applications (SPAs)",
-      "Landing pages and business websites",
-      "Portfolio websites",
+    "Molecular Machine Learning": [
+      "Desarrollo de Modelos de ML para la Predicción de Props Moleculares",
+      "Generación de Descriptores Moleculares para el Desarrollo de Fármacos",
+      "Dashboards y Bases de Datos Moleculares, EDA e Ingeniería de Datos",
     ],
-    "Mobile Development": [
-      "Mobile-friendly web apps",
-      "React Native mobile apps",
+    "Docking y Dinámica Molecular": [
+      "Extracción de data con filtros SMARTS y generación de estructuras 3D",
+      "Virtual Screening de cientos de miles de ligandos y cálculo de FEB",
+      "Simulaciones de dinámicas de 100 nanosegundos en 24 horas",
     ],
-    "UI/UX Design & Prototyping": [
-      "UI design with Figma & Canva",
-      "UX research & improvements",
-      "Prototyping for websites & mobile apps",
+    "Química Cuántica y Mecanismos de Rxn": [
+      "Cálculos ab initio, semiempíricos y DFT usando ORCA 6.1.1",
+      "Búsqueda de estados de transición: RSS y NEB-TS",
+      "Análisis de mecanismos de reacción y gráficas de perfil de reacción",
     ],
   };
 
@@ -70,7 +71,7 @@ const SkillsList = () => {
               className="md:w-[400px] w-full bg-[#1414149c] rounded-2xl text-left hover:bg-opacity-80 transition-all border border-[var(--white-icon-tr)] cursor-pointer overflow-hidden"
             >
               <div className="flex items-center gap-3 p-4">
-                {CategoryIcons[category]}
+                {CategoryIcons[category] || CategoryIcons["Web Development"]}
                 <div className="flex items-center gap-2 flex-grow justify-between">
                   <div className="min-w-0 max-w-[200px] md:max-w-none overflow-hidden">
                     <span className="block truncate text-[var(--white)] text-lg">

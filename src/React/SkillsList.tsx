@@ -47,7 +47,7 @@ const SkillsList = () => {
       "Virtual Screening de cientos de miles de ligandos y cálculo de FEB",
       "Simulaciones de dinámicas de 100 nanosegundos en 24 horas",
     ],
-    "Química Cuántica y Mecanismos de Rxn": [
+    "Mec. Cuántica y Mecanismos de Rxn": [
       "Cálculos ab initio, semiempíricos y DFT usando ORCA 6.1.1",
       "Búsqueda de estados de transición: RSS y NEB-TS",
       "Análisis de mecanismos de reacción y gráficas de perfil de reacción",
